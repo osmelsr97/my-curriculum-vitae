@@ -1,0 +1,258 @@
+{
+  "en": {
+    "name": "Osmel",
+    "lastName": "Smith Ruiz",
+    "profession": "Software Engineer",
+    "profileImage": "https://avatars.githubusercontent.com/u/51496162?v=4",
+    "sections": [
+      {
+        "id": "contact",
+        "title": "Contact",
+        "items": [
+          {
+            "id": "phone",
+            "title": "Phone",
+            "value": "(11) 975979711"
+          },
+          {
+            "id": "email",
+            "title": "Email",
+            "value": "osmelsr97@gmail.com"
+          },
+          {
+            "id": "github",
+            "title": "Github",
+            "value": ""
+          },
+          {
+            "id": "linkedin",
+            "title": "Linkedin",
+            "value": ""
+          },
+          {
+            "id": "location",
+            "title": "Location",
+            "value": "Sao Paulo, Brasil"
+          }
+        ]
+      },
+      {
+        "id": "language",
+        "title": "Language",
+        "items": [
+          {
+            "id": "es",
+            "title": "Spanish",
+            "value": "Native"
+          },
+          {
+            "id": "en",
+            "title": "English",
+            "value": "Advanced"
+          },
+          {
+            "id": "pr",
+            "title": "Portuguese",
+            "value": "Advanced"
+          }
+        ]
+      },
+      {
+        "id": "skills",
+        "title": "Skills",
+        "items": [
+          {
+            "id": "js",
+            "title": "Javascript",
+            "value": "Advanced"
+          }
+        ]
+      },
+      {
+        "id": "tech",
+        "title": "Technologies",
+        "items": [
+          {
+            "id": "react",
+            "title": "React JS",
+            "value": 5
+          }
+        ]
+      }
+    ]
+  },
+  "es": {
+    "name": "Osmel",
+    "lastName": "Smith Ruiz",
+    "profession": "Ingeniero de Software",
+    "profileImage": "https://avatars.githubusercontent.com/u/51496162?v=4",
+    "sections": [
+      {
+        "id": "contact",
+        "title": "Contacto",
+        "items": [
+          {
+            "id": "phone",
+            "title": "Teléfono",
+            "value": "(11) 975979711"
+          },
+          {
+            "id": "email",
+            "title": "Correo",
+            "value": "osmelsr97@gmail.com"
+          },
+          {
+            "id": "github",
+            "title": "Github",
+            "value": ""
+          },
+          {
+            "id": "linkedin",
+            "title": "Linkedin",
+            "value": ""
+          },
+          {
+            "id": "location",
+            "title": "Ubicación",
+            "value": "Sao Paulo, Brasil"
+          }
+        ]
+      },
+      {
+        "id": "language",
+        "title": "Idiomas",
+        "items": [
+          {
+            "id": "es",
+            "title": "Español",
+            "value": 5
+          },
+          {
+            "id": "en",
+            "title": "Inglés",
+            "value": 2
+          },
+          {
+            "id": "pr",
+            "title": "Portugues",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "skills",
+        "title": "Habilidades",
+        "items": [
+          {
+            "id": "js",
+            "title": "Javascript",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "id": "tech",
+        "title": "Tecnologías",
+        "items": [
+          {
+            "id": "react",
+            "title": "React JS",
+            "value": 5
+          }
+        ]
+      }
+    ]
+  },
+  "pr": {
+    "name": "Osmel",
+    "lastName": "Smith Ruiz",
+    "profession": "Engenheiro de Software",
+    "profileImage": "https://avatars.githubusercontent.com/u/51496162?v=4",
+    "sections": [
+      {
+        "id": "contact",
+        "title": "Contact",
+        "items": [
+          {
+            "id": "phone",
+            "title": "Phone",
+            "value": "(11) 975979711"
+          },
+          {
+            "id": "email",
+            "title": "Email",
+            "value": "osmelsr97@gmail.com"
+          },
+          {
+            "id": "github",
+            "title": "Github",
+            "value": ""
+          },
+          {
+            "id": "linkedin",
+            "title": "Linkedin",
+            "value": ""
+          },
+          {
+            "id": "location",
+            "title": "Location",
+            "value": "Sao Paulo, Brasil"
+          },
+          {
+            "id": "githubUser",
+            "title": "Location",
+            "value": "Sao Paulo, Brasil"
+          },
+          {
+            "id": "location",
+            "title": "Location",
+            "value": "Sao Paulo, Brasil"
+          }
+        ]
+      },
+      {
+        "id": "language",
+        "title": "Language",
+        "items": [
+          {
+            "id": "es",
+            "title": "Spanish",
+            "value": "Native"
+          },
+          {
+            "id": "en",
+            "title": "English",
+            "value": "Advanced"
+          },
+          {
+            "id": "pr",
+            "title": "Portuguese",
+            "value": "Advanced"
+          }
+        ]
+      },
+      {
+        "id": "skills",
+        "title": "Skills",
+        "items": [
+          {
+            "id": "js",
+            "title": "Javascript",
+            "value": "Advanced"
+          }
+        ]
+      },
+      {
+        "id": "tech",
+        "title": "Technologies",
+        "items": [
+          {
+            "id": "react",
+            "title": "React JS",
+            "value": 5
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -20,6 +20,7 @@ export default {
         800: "#05161D",
         900: "#030C10",
       },
+      white: "#FFFFFF",
     },
   },
   plugins: [],
