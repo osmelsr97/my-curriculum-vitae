@@ -4,6 +4,6 @@ import "./main.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <h1 className="text-red-500">My curriculum vitae</h1>
+    <h1 className="text-hoki-300">My curriculum vitae</h1>
   </React.StrictMode>
 );
