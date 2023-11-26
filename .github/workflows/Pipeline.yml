@@ -25,8 +25,8 @@ jobs:
         with:
           node-version: "20.9.0"
 
-      - uses: Ckeck username and email
-        run: git config --global user.name "github-actions" && git config --global user.email "
+      - name: Ckeck username and email
+        run: git config --global user.name && git config --global user.email
 
       - name: Install dependencies
         run: yarn
