@@ -23,7 +23,7 @@ export default function Home() {
           <h1 className="text-white text-5xl font-bold">
             {cvData.name} {cvData.lastName}
           </h1>
-          <h3 className="text-white text-3xl">{cvData?.profession}</h3>
+          <h3 className="text-white text-3xl">{cvData?.profession} 👨🏻‍💻</h3>
         </section>
       </header>
       <aside className="absolute z-10 left-24 top-0 h-full w-72 bg-hoki-500 mr-20">
