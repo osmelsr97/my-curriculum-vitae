@@ -1,32 +1,15 @@
-import { AsideSectionItem, Avatar, Loader } from "@/components";
-import { ICvData } from "@/vite-env";
 import { useEffect, useState } from "react";
+import { ICvData } from "@/vite-env";
 
-const Languages = {
-  es: "Español",
-  en: "English",
-  pr: "Português",
-};
+import { CV_DATA, Languages } from "@/utils/data";
+import { AsideSectionItem, Avatar, Loader } from "@/components";
 
 export default function Home() {
   const [cvData, setCvData] = useState<ICvData>();
   const [language] = useState<keyof typeof Languages>("en");
 
   useEffect(() => {
-    (async () => {
-      try {
-        const response = await fetch("./cv-data.json");
-
-        if (!response.ok) {
-          throw new Error(`Request Error: ${response.status}`);
-        }
-
-        const data = await response.json();
-        setCvData(data[language]);
-      } catch (error) {
-        throw new Error("Error fetching CV data");
-      }
-    })();
+    setCvData(CV_DATA[language]);
   }, [language]);
 
   if (!cvData) {
