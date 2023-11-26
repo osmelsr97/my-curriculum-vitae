@@ -36,3 +36,4 @@ jobs:
         with:
           branch: main
           folder: dist
+          token: ${{ secrets.GIT_CREDENTIALS }}
