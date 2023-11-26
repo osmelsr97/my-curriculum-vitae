@@ -25,10 +25,9 @@ jobs:
         with:
           node-version: "20.9.0"
 
-      - name: Set Git Credentials
-        run: |
-          git config --global user.name "Osmel Smith"
-          git config --global user.email "osmelsr97@gmail.com"
+      - uses: de-vri-es/setup-git-credentials@v2
+        with:
+          credentials: ${{secrets.GIT_CREDENTIALS}}
 
       - name: Install dependencies
         run: yarn
