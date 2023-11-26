@@ -16,7 +16,7 @@ jobs:
         uses: styfle/cancel-workflow-action@0.8.0
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -24,6 +24,11 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: "20.9.0"
+
+      - name: Configure Git identity
+        uses: de-vri-es/setup-git-credentials@v2
+        with:
+          credentials: ${{ github.token }}
 
       - name: Install dependencies
         run: yarn
