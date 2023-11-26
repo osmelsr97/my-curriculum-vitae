@@ -1,9 +1,10 @@
 /// <reference types="vite/client" />
+
 export interface Items {
     id: string;
     title?: string;
     icon?: string;
-    value?: number;
+    value?: number | string;
   }
  export  interface ISection {
     id: string;
@@ -17,4 +18,10 @@ export interface Items {
     profileImage: string;
     sections: ISection[];
     aboutMe: string;
+  }
+
+  interface ICvDataWithLang {
+    en: ICvData;
+    es: ICvData;
+    pr: ICvData;
   }

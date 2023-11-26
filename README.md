@@ -1,3 +1,5 @@
+[![Pipeline Deploy](https://github.com/osmelsr97/my-curriculum-vitae/actions/workflows/Pipeline.yml/badge.svg?branch=main)](https://github.com/osmelsr97/my-curriculum-vitae/actions/workflows/Pipeline.yml)
+
 # 👨🏻‍💻 My Curriculum Vitae 👨🏻‍💻
 ### 🧭 Description: 
 A summary of my skills and work experience.
