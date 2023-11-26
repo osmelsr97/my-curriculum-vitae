@@ -25,9 +25,8 @@ jobs:
         with:
           node-version: "20.9.0"
 
-      - uses: de-vri-es/setup-git-credentials@v2
-        with:
-          credentials: ${{secrets.GIT_CREDENTIALS}}
+      - uses: Ckeck username and email
+        run: git config --global user.name "github-actions" && git config --global user.email "
 
       - name: Install dependencies
         run: yarn
