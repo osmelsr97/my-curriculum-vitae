@@ -32,8 +32,7 @@ jobs:
         run: yarn run build
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages
-          folder: dist
-          token: ${{ secrets.GIT_CREDENTIALS }}
+          github_token: ${{ secrets.GIT_CREDENTIALS}}
+          publish_dir: ./dist
