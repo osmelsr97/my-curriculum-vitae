@@ -25,11 +25,6 @@ jobs:
         with:
           node-version: "20.9.0"
 
-      - name: Imprimir información de Git
-        run: |
-          git config --global --list
-          git log -1
-
       - name: Install dependencies
         run: yarn
 
