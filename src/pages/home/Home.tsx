@@ -10,7 +10,7 @@ const Languages = {
 
 export default function Home() {
   const [cvData, setCvData] = useState<ICvData>();
-  const [language, setLanguage] = useState<keyof typeof Languages>("en");
+  const [language] = useState<keyof typeof Languages>("en");
 
   useEffect(() => {
     (async () => {
