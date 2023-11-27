@@ -1,15 +1,31 @@
 /// <reference types="vite/client" />
 
+import { IconsByName } from "./components/icons";
+
 export interface Items {
     id: string;
-    title?: string;
-    icon?: string;
+    title: string;
+    icon?: keyof typeof IconsByName;
     value?: number | string;
+    link?: string;
   }
- export  interface ISection {
+ export interface ISection {
     id: string;
     title: string;
     items: Items[];
+  }
+
+  interface ContentSection {
+    id: string;
+    title: string;
+    items: BodyItems[];
+  }
+  
+  interface BodyItems {
+    id: string;
+    date?: string;
+    title?: string;
+    description: string;
   }
   export interface ICvData {
     name: string;
@@ -17,7 +33,7 @@ export interface Items {
     profession: string;
     profileImage: string;
     sections: ISection[];
-    aboutMe: string;
+    contentSections: ContentSection[]
   }
 
   interface ICvDataWithLang {
