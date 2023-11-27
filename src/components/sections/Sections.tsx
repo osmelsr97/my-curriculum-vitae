@@ -1,4 +1,6 @@
 import { ISection } from "@/vite-env";
+import { IconsByName } from "../icons";
+import ItemWithScore from "../itemWithScore/ItemsWithScore";
 
 export function AsideSectionItem({ title, items }: ISection) {
   return (
@@ -8,9 +10,22 @@ export function AsideSectionItem({ title, items }: ISection) {
       </span>
       <ul className="mt-16 px-6">
         {!!items.length &&
-          items.map(({ id, title }) => (
-            <li key={id}>
-              <span className="text-white">{title}</span>
+          items.map(({ id, icon, title, value, link }) => (
+            <li key={id} className="flex-1 gap-2 items-end p-1">
+              {typeof value === "number" ? (
+                <ItemWithScore title={title} score={value} />
+              ) : (
+                <div className="flex gap-2 items-center">
+                  {IconsByName?.[icon as keyof typeof IconsByName] ?? null}
+                  {link ? (
+                    <a className="text-hoki-100 cursor-pointer" href={link}>
+                      {value}
+                    </a>
+                  ) : (
+                    <span className="text-white">{value}</span>
+                  )}
+                </div>
+              )}
             </li>
           ))}
       </ul>
